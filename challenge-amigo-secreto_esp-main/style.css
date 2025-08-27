@@ -167,3 +167,17 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        padding: 10%;
+        justify:center ;
+        align-items: center;
+        text-align: center;
+       }
+    }
+       
+    
+    
+
